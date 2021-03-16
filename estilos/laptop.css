@@ -1,0 +1,76 @@
+.main-wrapper {
+    display: grid;
+    grid-template-columns: 635px minmax(auto, 700px);
+    align-content: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.main--background--img{
+    background-image: url('../assets/bg-desktop.svg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 1440px;
+    height: 1005px;
+    top: 0px; 
+    left: 0px;
+}
+
+
+header{
+    grid-column: 1 / 2;
+    padding: 0;
+    gap: 5px;
+}
+
+header p {
+    font-size: 4rem;
+}
+
+header img {
+    width: 40px;
+    height: 35px;
+}
+
+.main-img-container {
+    grid-column: 1 / 2;
+    margin: 85px auto;
+}
+
+.main-img {
+    width: 630px;
+    height: 450px;
+}
+
+.main-info {
+    margin-top: 100px;
+    text-align: left;
+    padding-left: 20px;
+    position: relative;
+    z-index: 5;
+}
+
+.main-info h1 {
+    font-size: 4.2rem;
+    padding: 0 85px 0 0;
+}
+
+.main-info p {
+    padding: 0 10px 0 0;
+    font-size: 2.1rem;
+    height: auto;
+}
+
+.main-info a {
+    align-self: flex-start;
+}
+
+footer {
+    grid-column: 2 / 3;
+    justify-content: flex-end;
+    padding-right: 50px;
+    position: relative;
+    z-index: 5;
+}
